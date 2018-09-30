@@ -45,7 +45,7 @@ public class AdjListSolve {
 
 		while (!stack.isEmpty()) {
 			int cur = stack.pop();
-			if(visited[cur]) break;
+			if(visited[cur]) continue;
 			else {
 				visited[cur] = true;
 				System.out.print(cur + " ");
